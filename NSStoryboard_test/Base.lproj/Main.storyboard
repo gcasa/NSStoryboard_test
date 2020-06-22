@@ -720,6 +720,17 @@
                                     <segue destination="VBg-65-aEF" kind="modal" id="MTl-Ma-z5V"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIU-UO-Fo6">
+                                <rect key="frame" x="316" y="85" width="92" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Button 2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5TH-Be-6q6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="xDc-4k-c3Z" kind="show" id="lkI-Fn-HOO"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -738,7 +749,41 @@
                 </viewController>
                 <customObject id="fcb-Wg-0dG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="626" y="662"/>
+            <point key="canvasLocation" x="681" y="524"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="Eyc-Oc-gcc">
+            <objects>
+                <windowController id="xDc-4k-c3Z" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="4zt-gK-xes">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="320" y="343" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+                        <connections>
+                            <outlet property="delegate" destination="xDc-4k-c3Z" id="lAy-5Z-MwN"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="OlV-BK-Sao" kind="relationship" relationship="window.shadowedContentViewController" id="Ngx-vE-2An"/>
+                    </connections>
+                </windowController>
+                <customObject id="eml-Ca-Whj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="888"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="50p-WQ-wme">
+            <objects>
+                <viewController id="OlV-BK-Sao" sceneMemberID="viewController">
+                    <view key="view" id="Wuv-1e-C3m">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="5Ax-1U-Ehb" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1369" y="863"/>
         </scene>
     </scenes>
 </document>
