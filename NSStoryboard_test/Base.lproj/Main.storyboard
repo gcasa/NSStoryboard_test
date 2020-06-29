@@ -717,7 +717,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="VBg-65-aEF" kind="modal" id="MTl-Ma-z5V"/>
+                                    <segue destination="VBg-65-aEF" kind="modal" identifier="ButtonToVC1" id="MTl-Ma-z5V"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIU-UO-Fo6">
@@ -728,7 +728,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="xDc-4k-c3Z" kind="show" id="lkI-Fn-HOO"/>
+                                    <segue destination="xDc-4k-c3Z" kind="show" identifier="Button2ToWC2" id="lkI-Fn-HOO"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="92i-bA-qng">
