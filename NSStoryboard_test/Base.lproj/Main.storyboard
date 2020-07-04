@@ -738,6 +738,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <segue destination="Hde-fq-2Bq" kind="show" identifier="InitialToExternalStoryboard" id="uEq-Lw-kCd"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
@@ -745,6 +748,14 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="I1N-CR-cxk">
+            <objects>
+                <controllerPlaceholder id="Hde-fq-2Bq" sceneMemberID="viewController"/>
+                <customObject id="97Z-i4-6EZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="978"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BKR-Rl-S5q">
