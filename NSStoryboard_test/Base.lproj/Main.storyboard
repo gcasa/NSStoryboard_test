@@ -701,10 +701,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Window-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Main Window" id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -820,10 +820,10 @@
             </objects>
             <point key="canvasLocation" x="662" y="888"/>
         </scene>
-        <!--View Controller-->
+        <!--Test Window 1-->
         <scene sceneID="50p-WQ-wme">
             <objects>
-                <viewController id="OlV-BK-Sao" sceneMemberID="viewController">
+                <viewController title="Test Window 1" id="OlV-BK-Sao" sceneMemberID="viewController">
                     <view key="view" id="Wuv-1e-C3m">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
