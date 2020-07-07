@@ -665,6 +665,12 @@
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
                                         </menuItem>
+                                        <menuItem title="Trigger" id="Jrf-j5-f0j">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <segue destination="pql-SM-2Dt" kind="show" identifier="MenuToWC" id="icE-K8-dpf"/>
+                                            </connections>
+                                        </menuItem>
                                     </items>
                                 </menu>
                             </menuItem>
@@ -679,6 +685,56 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="QGl-Th-euu">
+            <objects>
+                <windowController id="pql-SM-2Dt" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="h8x-2t-ZqR">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="320" y="343" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+                        <connections>
+                            <outlet property="delegate" destination="pql-SM-2Dt" id="lHh-VK-lfa"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="zS3-21-8t3" kind="relationship" relationship="window.shadowedContentViewController" id="t8i-WZ-2ZQ"/>
+                    </connections>
+                </windowController>
+                <customObject id="ZMx-aI-WJF" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="642" y="106"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3Ua-Zy-i4F">
+            <objects>
+                <viewController id="zS3-21-8t3" sceneMemberID="viewController">
+                    <view key="view" id="sNr-Jy-XZN">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oCF-7c-ili">
+                                <rect key="frame" x="130" y="164" width="220" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="L39-BX-HXU">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment width="71"/>
+                                        <segment width="71" selected="YES" tag="1"/>
+                                        <segment width="70">
+                                            <nil key="label"/>
+                                        </segment>
+                                    </segments>
+                                </segmentedCell>
+                            </segmentedControl>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="DjS-j3-nBf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1349" y="81"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -786,7 +842,7 @@
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <size key="minSize" width="225" height="135"/>
-                                            <size key="maxSize" width="225" height="10000000"/>
+                                            <size key="maxSize" width="240" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
