@@ -909,7 +909,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="Eua-kV-LFV" kind="popover" popoverAnchorView="bL2-8W-lDs" popoverBehavior="t" preferredEdge="maxY" id="qen-nF-Bif"/>
+                                    <segue destination="Eua-kV-LFV" kind="show" id="qen-nF-Bif"/>
                                 </connections>
                             </button>
                         </subviews>
