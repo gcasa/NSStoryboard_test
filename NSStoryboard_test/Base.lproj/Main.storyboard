@@ -909,7 +909,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="Eua-kV-LFV" kind="show" id="qen-nF-Bif"/>
+                                    <segue destination="Eua-kV-LFV" kind="popover" popoverAnchorView="bL2-8W-lDs" popoverBehavior="t" preferredEdge="maxY" id="qen-nF-Bif"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -965,7 +965,7 @@
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <size key="minSize" width="225" height="135"/>
-                                            <size key="maxSize" width="225" height="10000000"/>
+                                            <size key="maxSize" width="240" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
