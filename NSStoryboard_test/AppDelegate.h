@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property IBOutlet NSPageController *pageController;
 
 @end
 
