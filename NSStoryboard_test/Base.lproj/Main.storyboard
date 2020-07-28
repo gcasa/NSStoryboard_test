@@ -794,6 +794,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <segue destination="Skw-WJ-Ajw" kind="popover" popoverAnchorView="sNK-4b-4gF" popoverBehavior="t" preferredEdge="maxY" id="ZpU-BN-S1z"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIU-UO-Fo6">
                                 <rect key="frame" x="318" y="71" width="89" height="32"/>
@@ -820,6 +823,30 @@
                 <customObject id="97Z-i4-6EZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-228" y="978"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7wr-wK-zPC">
+            <objects>
+                <viewController id="Skw-WJ-Ajw" sceneMemberID="viewController">
+                    <view key="view" id="w36-WN-6Tl">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeE-9M-QpL">
+                                <rect key="frame" x="172" y="142" width="107" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="This is a popover" id="0Xj-Eh-pA2">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="u3C-Ux-GX1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="1037"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BKR-Rl-S5q">
@@ -1019,7 +1046,7 @@
         <!--Page Controller-->
         <scene sceneID="Um8-EM-Qf1">
             <objects>
-                <pagecontroller id="RF6-oH-DEo" sceneMemberID="viewController">
+                <pagecontroller transitionStyle="horizontalStrip" id="RF6-oH-DEo" sceneMemberID="viewController">
                     <view key="view" id="HVG-y7-2DQ">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
