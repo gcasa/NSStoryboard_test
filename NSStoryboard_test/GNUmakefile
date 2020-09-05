@@ -21,12 +21,12 @@ NSStoryboard_test_OBJCPP_FILES =
 NSStoryboard_test_RESOURCE_FILES = Assets.xcassets \
 	Base.lproj/Main.storyboard \
 	External.storyboard \
-	English.lproj 
+	NSStoryboard_testInfo.plist 
 
 ADDITIONAL_INCLUDE_DIRS += -I. \
 
 
-ADDITIONAL_LDFLAGS += 
+ADDITIONAL_OBJC_LIBS += 
 
 include $(GNUSTEP_MAKEFILES)/common.make
 include $(GNUSTEP_MAKEFILES)/application.make
